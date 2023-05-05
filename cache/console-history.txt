@@ -1,0 +1,1000 @@
+await sl.address()
+await disperse.spreadLuv()
+await dev.sendTransaction({to : disperse.address, value: parse("0.1")})
+await db.getAddressBook()
+  );
+    sharesToHexString(shares)
+    getArrayReversed(addressList),
+  await db.setArrays(
+  let   disperse = await SL.deploy(db.address);
+  const sl = await SL.deploy(db.address);
+  const db = await DB.deploy(dev.address);
+  const SL = await ethers.getContractFactory('SpreadLove');
+  const DB = await ethers.getContractFactory('DataBase');
+  const shares = [20, 20, 15, 15, 30];
+  const addressList = [one.address, two.address, three.address, four.address, five.address];
+  const [dev, one, two, three, four ,five] = await ethers.getSigners();
+// const five = (new ethers.Wallet(keccak256('5'))).connect(p)
+// const four = (new ethers.Wallet(keccak256('4'))).connect(p)
+// const three = (new ethers.Wallet(keccak256('3'))).connect(p)
+// const two = (new ethers.Wallet(keccak256('2'))).connect(p)
+// const one = (new ethers.Wallet(keccak256('1'))).connect(p)
+const p = await ethers.getDefaultProvider();
+}
+  return "0x" + strs.map(reverseBytes).join('');
+function getArrayReversed(strs) {
+}
+  return '0x' + shares.map(x => to8BitHex((~x & 0xFF) >>> 0)).join('');
+function sharesToHexString(shares) {
+}
+  return nb.toString(16).substring(0, 2).padStart(2, '0');
+function to8BitHex(nb) {
+const parse = ethers.utils.parseEther;
+const format = ethers.utils.formatEther;
+}
+  return invertedChunks.map(chunk => chunk.toString(16).padStart(8, '0')).join('');
+  });
+    return ~intChunk >>> 0; // Use unsigned right shift to ensure 32-bit inversion
+    const intChunk = parseInt(chunk, 16);
+  const invertedChunks = chunks.map(chunk => {
+  }
+    chunks.push(hexString.substr(i * 8, 8));
+  for (let i = 0; i < 5; i++) {
+  const hexString = str.replace('0x', '');
+  const chunks = [];
+function reverseBytes(str) {
+const keccak256 = require('keccak256');
+await dev.address
+  const [dev, one, two, three, four ,five] = await ethers.getSigners();
+await dev.address
+  const [dev, one, two, three, four ,five] = await ethers.getSigners();
+// const five = (new ethers.Wallet(keccak256('5'))).connect(p)
+// const four = (new ethers.Wallet(keccak256('4'))).connect(p)
+// const three = (new ethers.Wallet(keccak256('3'))).connect(p)
+// const two = (new ethers.Wallet(keccak256('2'))).connect(p)
+// const one = (new ethers.Wallet(keccak256('1'))).connect(p)
+const p = await ethers.getDefaultProvider();
+}
+  return "0x" + strs.map(reverseBytes).join('');
+function getArrayReversed(strs) {
+}
+  return '0x' + shares.map(x => to8BitHex((~x & 0xFF) >>> 0)).join('');
+function sharesToHexString(shares) {
+}
+  return nb.toString(16).substring(0, 2).padStart(2, '0');
+function to8BitHex(nb) {
+const parse = ethers.utils.parseEther;
+const format = ethers.utils.formatEther;
+}
+  return invertedChunks.map(chunk => chunk.toString(16).padStart(8, '0')).join('');
+  });
+    return ~intChunk >>> 0; // Use unsigned right shift to ensure 32-bit inversion
+    const intChunk = parseInt(chunk, 16);
+  const invertedChunks = chunks.map(chunk => {
+  }
+    chunks.push(hexString.substr(i * 8, 8));
+  for (let i = 0; i < 5; i++) {
+  const hexString = str.replace('0x', '');
+  const chunks = [];
+function reverseBytes(str) {
+const keccak256 = require('keccak256');
+await sl.spreadMoney(dsd.address)
+await dsd.balanceOf(five.address)
+await sl.spreadMoney(dsd.address)
+await dsd.balanceOf(sl.address)
+await dsd.mint(sl.address, 1e3)
+  const dsd = await DSD.deploy()
+  const DSD = await ethers.getContractFactory("DSD")
+  );
+    sharesToHexString(shares)
+    getArrayReversed(addressList),
+  await db.setArrays(
+  // const dsd = await DSD.deploy()
+  // const DSD = await ethers.getContractFactory("DSD")
+  const sl = await SL.deploy(db.address);
+  const db = await DB.deploy(dev.address);
+  const SL = await ethers.getContractFactory('SpreadLove');
+  const DB = await ethers.getContractFactory('DataBase');
+  const shares = [20, 20, 15, 15, 30];
+  const addressList = [one.address, two.address, three.address, four.address, five.address];
+  const [dev, one, two, three, four ,five] = await ethers.getSigners();
+// const five = (new ethers.Wallet(keccak256('5'))).connect(p)
+// const four = (new ethers.Wallet(keccak256('4'))).connect(p)
+// const three = (new ethers.Wallet(keccak256('3'))).connect(p)
+// const two = (new ethers.Wallet(keccak256('2'))).connect(p)
+// const one = (new ethers.Wallet(keccak256('1'))).connect(p)
+const p = await ethers.getDefaultProvider();
+}
+  return "0x" + strs.map(reverseBytes).join('');
+function getArrayReversed(strs) {
+}
+  return '0x' + shares.map(x => to8BitHex((~x & 0xFF) >>> 0)).join('');
+function sharesToHexString(shares) {
+}
+  return nb.toString(16).substring(0, 2).padStart(2, '0');
+function to8BitHex(nb) {
+const parse = ethers.utils.parseEther;
+const format = ethers.utils.formatEther;
+}
+  return invertedChunks.map(chunk => chunk.toString(16).padStart(8, '0')).join('');
+  });
+    return ~intChunk >>> 0; // Use unsigned right shift to ensure 32-bit inversion
+    const intChunk = parseInt(chunk, 16);
+  const invertedChunks = chunks.map(chunk => {
+  }
+    chunks.push(hexString.substr(i * 8, 8));
+  for (let i = 0; i < 5; i++) {
+  const hexString = str.replace('0x', '');
+  const chunks = [];
+function reverseBytes(str) {
+const keccak256 = require('keccak256');
+await db.getBal(five.address)
+await db.getBal(one.address)
+await db.getBal(sl.address)
+await sl.spreadLuv()
+await db.getBal(sl.address)
+await dev.sendTransaction({to : sl.address, value: 1000})
+await db.getBal(sl.address)
+  );
+    sharesToHexString(shares)
+    getArrayReversed(addressList),
+  await db.setArrays(
+  const dsd = await DSD.deploy()
+  const DSD = await ethers.getContractFactory("DSD")
+  const sl = await SL.deploy(db.address);
+  const db = await DB.deploy(dev.address);
+  const SL = await ethers.getContractFactory('SpreadLove');
+  const DB = await ethers.getContractFactory('DataBase');
+  const shares = [20, 20, 15, 15, 30];
+  const addressList = [one.address, two.address, three.address, four.address, five.address];
+  const [dev, owner] = await ethers.getSigners();
+const five = (new ethers.Wallet(keccak256('5'))).connect(p)
+const four = (new ethers.Wallet(keccak256('4'))).connect(p)
+const three = (new ethers.Wallet(keccak256('3'))).connect(p)
+const two = (new ethers.Wallet(keccak256('2'))).connect(p)
+const one = (new ethers.Wallet(keccak256('1'))).connect(p)
+const p = await ethers.getDefaultProvider();
+}
+  return "0x" + strs.map(reverseBytes).join('');
+function getArrayReversed(strs) {
+}
+  return '0x' + shares.map(x => to8BitHex((~x & 0xFF) >>> 0)).join('');
+function sharesToHexString(shares) {
+}
+  return nb.toString(16).substring(0, 2).padStart(2, '0');
+function to8BitHex(nb) {
+const parse = ethers.utils.parseEther;
+const format = ethers.utils.formatEther;
+}
+  return invertedChunks.map(chunk => chunk.toString(16).padStart(8, '0')).join('');
+  });
+    return ~intChunk >>> 0; // Use unsigned right shift to ensure 32-bit inversion
+    const intChunk = parseInt(chunk, 16);
+  const invertedChunks = chunks.map(chunk => {
+  }
+    chunks.push(hexString.substr(i * 8, 8));
+  for (let i = 0; i < 5; i++) {
+  const hexString = str.replace('0x', '');
+  const chunks = [];
+function reverseBytes(str) {
+const keccak256 = require('keccak256');
+await sl.address.getBalance()
+await sl.getBalance()
+await two.sendTransaction({to : sl.address, value: 100})
+await two.sendTransaction({to : sl.address, value: 200})
+await two.sendTransaction({to : sl.address, value: 1000})
+await two.getBalance()
+await two.getBalance(two.address)
+await p.getBalance(two.address)
+await sl.spreadLuv()
+await sl.spreadLuve()
+await sl.spreadLove()
+await dev.sendTransaction({to : sl.address, value: 1000})
+await dsd.balanceOf(five.address)
+await dsd.balanceOf(four.address)
+await dsd.balanceOf(three.address)
+await dsd.balanceOf(sl.address)
+await dsd.balanceOf(one.address)
+await sl.spreadMoney(dsd.address)
+await dsd.balanceOf(two.address)
+await sl.spreadMoney(dsd.address)
+await dsd.mint(sl.address, 1e3)
+  );
+    sharesToHexString(shares)
+    getArrayReversed(addressList),
+  await db.setArrays(
+  const dsd = await DSD.deploy()
+  const DSD = await ethers.getContractFactory("DSD")
+  const sl = await SL.deploy(db.address);
+  const db = await DB.deploy(dev.address);
+  const SL = await ethers.getContractFactory('SpreadLove');
+  const DB = await ethers.getContractFactory('DataBase');
+  const shares = [20, 20, 15, 15, 30];
+  const addressList = [one.address, two.address, three.address, four.address, five.address];
+  const [dev, owner] = await ethers.getSigners();
+const five = (new ethers.Wallet(keccak256('5'))).connect(p)
+const four = (new ethers.Wallet(keccak256('4'))).connect(p)
+const three = (new ethers.Wallet(keccak256('3'))).connect(p)
+const two = (new ethers.Wallet(keccak256('2'))).connect(p)
+const one = (new ethers.Wallet(keccak256('1'))).connect(p)
+const p = await ethers.getDefaultProvider();
+}
+  return "0x" + strs.map(reverseBytes).join('');
+function getArrayReversed(strs) {
+}
+  return '0x' + shares.map(x => to8BitHex((~x & 0xFF) >>> 0)).join('');
+function sharesToHexString(shares) {
+}
+  return nb.toString(16).substring(0, 2).padStart(2, '0');
+function to8BitHex(nb) {
+const parse = ethers.utils.parseEther;
+const format = ethers.utils.formatEther;
+}
+  return invertedChunks.map(chunk => chunk.toString(16).padStart(8, '0')).join('');
+  });
+    return ~intChunk >>> 0; // Use unsigned right shift to ensure 32-bit inversion
+    const intChunk = parseInt(chunk, 16);
+  const invertedChunks = chunks.map(chunk => {
+  }
+    chunks.push(hexString.substr(i * 8, 8));
+  for (let i = 0; i < 5; i++) {
+  const hexString = str.replace('0x', '');
+  const chunks = [];
+function reverseBytes(str) {
+const keccak256 = require('keccak256');
+  );
+    sharesToHexString(shares)
+    getArrayReversed(addressList),
+  await db.setArrays(
+  const dsd = await DSD.deploy()
+  const DSD = await ethers.getContractFactory("DSD")
+  const sl = await SL.deploy(db.address);
+  const db = await DB.deploy(dev.address);
+  const SL = await ethers.getContractFactory('SpreadLove');
+  const DB = await ethers.getContractFactory('DataBase');
+  const shares = [75, 25];
+  const addressList = [one.address, two.address, three.address, four.address, five.address];
+  const [dev, owner] = await ethers.getSigners();
+const five = (new ethers.Wallet(keccak256('5'))).connect(p)
+const four = (new ethers.Wallet(keccak256('4'))).connect(p)
+const three = (new ethers.Wallet(keccak256('3'))).connect(p)
+const two = (new ethers.Wallet(keccak256('2'))).connect(p)
+const one = (new ethers.Wallet(keccak256('1'))).connect(p)
+const p = await ethers.getDefaultProvider();
+}
+  return "0x" + strs.map(reverseBytes).join('');
+function getArrayReversed(strs) {
+}
+  return '0x' + shares.map(x => to8BitHex((~x & 0xFF) >>> 0)).join('');
+function sharesToHexString(shares) {
+}
+  return nb.toString(16).substring(0, 2).padStart(2, '0');
+function to8BitHex(nb) {
+const parse = ethers.utils.parseEther;
+const format = ethers.utils.formatEther;
+}
+  return invertedChunks.map(chunk => chunk.toString(16).padStart(8, '0')).join('');
+  });
+    return ~intChunk >>> 0; // Use unsigned right shift to ensure 32-bit inversion
+    const intChunk = parseInt(chunk, 16);
+  const invertedChunks = chunks.map(chunk => {
+  }
+    chunks.push(hexString.substr(i * 8, 8));
+  for (let i = 0; i < 5; i++) {
+  const hexString = str.replace('0x', '');
+  const chunks = [];
+function reverseBytes(str) {
+const keccak256 = require('keccak256');
+await dsd.balanceOf(two.address)
+await dsd.balanceOf(one.address)
+await dsd.balanceOf(sl.address)
+await sl.spreadMoney(dsd.address)
+await dsd.balanceOf(sl.address)
+await dsd.mint(sl.address, 1e3)
+await dsd.mint(1e3)
+const dsd = await DSD.deploy()
+const DSD = await ethers.getContractFactory("DSD")
+  );
+    sharesToHexString(shares)
+    getArrayReversed(addressList),
+  await db.setArrays(
+  const sl = await SL.deploy(db.address);
+  const db = await DB.deploy(dev.address);
+  const SL = await ethers.getContractFactory('SpreadLove');
+  const DB = await ethers.getContractFactory('DataBase');
+  const shares = [75, 25];
+  const addressList = [one.address, two.address];
+  const [dev, owner] = await ethers.getSigners();
+const two = (new ethers.Wallet(keccak256('2'))).connect(p)
+const one = (new ethers.Wallet(keccak256('1'))).connect(p)
+const p = await ethers.getDefaultProvider();
+}
+  return "0x" + strs.map(reverseBytes).join('');
+function getArrayReversed(strs) {
+}
+  return '0x' + shares.map(x => to8BitHex((~x & 0xFF) >>> 0)).join('');
+function sharesToHexString(shares) {
+}
+  return nb.toString(16).substring(0, 2).padStart(2, '0');
+function to8BitHex(nb) {
+const parse = ethers.utils.parseEther;
+const format = ethers.utils.formatEther;
+}
+  return invertedChunks.map(chunk => chunk.toString(16).padStart(8, '0')).join('');
+  });
+    return ~intChunk >>> 0; // Use unsigned right shift to ensure 32-bit inversion
+    const intChunk = parseInt(chunk, 16);
+  const invertedChunks = chunks.map(chunk => {
+  }
+    chunks.push(hexString.substr(i * 8, 8));
+  for (let i = 0; i < 5; i++) {
+  const hexString = str.replace('0x', '');
+  const chunks = [];
+function reverseBytes(str) {
+const keccak256 = require('keccak256');
+lol.map((x) => x.address)
+const lol  = await ethers.getSigners()
+lol.map((x) => x.address)
+const lol  = await ethers.getSigners()
+const [one , two , three, four , five] = await ethers.getSigners()
+NigelWall.address
+const NigelWall = new ethers.Wallet(keccak256("Nigel Sulitoe"))
+ const keccak256 = require('keccak256')
+await DB.getDeployTransaction("0xf1fc0b43f8fD0e8B8fcE983732d48925148438c1").data
+  const SL = await ethers.getContractFactory('SpreadLove');
+  const DB = await ethers.getContractFactory('DataBase');
+(await ethers.getSigners()).map((x) => x.address)
+await ethers.getSigners().map((x) => x.address)
+await sl.bal(one.address)
+await sl.disperseEther()
+await sl.bal(two.address)
+await sl.bal(one.address)
+await sl.disperseEther()
+await dev.sendTransaction({to : sl.address, value: 100})
+  );
+    sharesToHexString(shares)
+    getArrayReversed(addressList),
+  await db.setArrays(
+  const sl = await SL.deploy(db.address);
+  const db = await DB.deploy(dev.address);
+  const SL = await ethers.getContractFactory('SpreadLove');
+  const DB = await ethers.getContractFactory('DataBase');
+  const shares = [75, 25];
+  const addressList = [one.address, two.address];
+  const [dev, owner] = await ethers.getSigners();
+const two = (new ethers.Wallet(keccak256('2'))).connect(p)
+const one = (new ethers.Wallet(keccak256('1'))).connect(p)
+const p = await ethers.getDefaultProvider();
+}
+  return "0x" + strs.map(reverseBytes).join('');
+function getArrayReversed(strs) {
+}
+  return '0x' + shares.map(x => to8BitHex((~x & 0xFF) >>> 0)).join('');
+function sharesToHexString(shares) {
+}
+  return nb.toString(16).substring(0, 2).padStart(2, '0');
+function to8BitHex(nb) {
+const parse = ethers.utils.parseEther;
+const format = ethers.utils.formatEther;
+}
+  return invertedChunks.map(chunk => chunk.toString(16).padStart(8, '0')).join('');
+  });
+    return ~intChunk >>> 0; // Use unsigned right shift to ensure 32-bit inversion
+    const intChunk = parseInt(chunk, 16);
+  const invertedChunks = chunks.map(chunk => {
+  }
+    chunks.push(hexString.substr(i * 8, 8));
+  for (let i = 0; i < 5; i++) {
+  const hexString = str.replace('0x', '');
+  const chunks = [];
+function reverseBytes(str) {
+const keccak256 = require('keccak256');
+100 * 75 / 100
+await db.getShares()
+await db.totalShares()
+await sl.bal(two.address)
+await sl.bal(one.address)
+await sl.bal(sl.address)
+await sl.disperseEther()
+await sl.bal(sl.address)
+await dev.sendTransaction({to : sl.address, value: 100})
+await sl.bal(sl.address)
+await sl.disperseEther()
+await sl.bal(one.address)
+await sl.bal(sl.address)
+  );
+    sharesToHexString(shares)
+    getArrayReversed(addressList),
+  await db.setArrays(
+  const sl = await SL.deploy(db.address);
+  const db = await DB.deploy(dev.address);
+  const SL = await ethers.getContractFactory('SpreadLove');
+  const DB = await ethers.getContractFactory('DataBase');
+  const shares = [75, 25];
+  const addressList = [one.address, two.address];
+  const [dev, owner] = await ethers.getSigners();
+const two = (new ethers.Wallet(keccak256('2'))).connect(p)
+const one = (new ethers.Wallet(keccak256('1'))).connect(p)
+const p = await ethers.getDefaultProvider();
+}
+  return "0x" + strs.map(reverseBytes).join('');
+function getArrayReversed(strs) {
+}
+  return '0x' + shares.map(x => to8BitHex((~x & 0xFF) >>> 0)).join('');
+function sharesToHexString(shares) {
+}
+  return nb.toString(16).substring(0, 2).padStart(2, '0');
+function to8BitHex(nb) {
+const parse = ethers.utils.parseEther;
+const format = ethers.utils.formatEther;
+}
+  return invertedChunks.map(chunk => chunk.toString(16).padStart(8, '0')).join('');
+  });
+    return ~intChunk >>> 0; // Use unsigned right shift to ensure 32-bit inversion
+    const intChunk = parseInt(chunk, 16);
+  const invertedChunks = chunks.map(chunk => {
+  }
+    chunks.push(hexString.substr(i * 8, 8));
+  for (let i = 0; i < 5; i++) {
+  const hexString = str.replace('0x', '');
+  const chunks = [];
+function reverseBytes(str) {
+const keccak256 = require('keccak256');
+await sl.bal()
+await sl.disperseEther()
+await sl.bal()
+await dev.sendTransaction({to : sl.address, value: 100})
+await sl.bal()
+  );
+    sharesToHexString(shares)
+    getArrayReversed(addressList),
+  await db.setArrays(
+  const sl = await SL.deploy(db.address);
+  const db = await DB.deploy(dev.address);
+  const SL = await ethers.getContractFactory('SpreadLove');
+  const DB = await ethers.getContractFactory('DataBase');
+  const shares = [75, 25];
+  const addressList = [one.address, two.address];
+  const [dev, owner] = await ethers.getSigners();
+const two = (new ethers.Wallet(keccak256('2'))).connect(p)
+const one = (new ethers.Wallet(keccak256('1'))).connect(p)
+const p = await ethers.getDefaultProvider();
+}
+  return "0x" + strs.map(reverseBytes).join('');
+function getArrayReversed(strs) {
+}
+  return '0x' + shares.map(x => to8BitHex((~x & 0xFF) >>> 0)).join('');
+function sharesToHexString(shares) {
+}
+  return nb.toString(16).substring(0, 2).padStart(2, '0');
+function to8BitHex(nb) {
+const parse = ethers.utils.parseEther;
+const format = ethers.utils.formatEther;
+}
+  return invertedChunks.map(chunk => chunk.toString(16).padStart(8, '0')).join('');
+  });
+    return ~intChunk >>> 0; // Use unsigned right shift to ensure 32-bit inversion
+    const intChunk = parseInt(chunk, 16);
+  const invertedChunks = chunks.map(chunk => {
+  }
+    chunks.push(hexString.substr(i * 8, 8));
+  for (let i = 0; i < 5; i++) {
+  const hexString = str.replace('0x', '');
+  const chunks = [];
+function reverseBytes(str) {
+const keccak256 = require('keccak256');
+one.address
+await sl.viewAddress()
+await sl.viewAddress
+await p.getBalance(two.address)
+await p.getBalance(one.address)
+await one.balance()
+await one.balancwe()
+await sl.bal()
+await sl.disperseEther()
+await sl.bal()
+await dev.sendTransaction({to : sl.address, value: 100})
+  );
+    sharesToHexString(shares)
+    getArrayReversed(addressList),
+  await db.setArrays(
+  const sl = await SL.deploy(db.address);
+  const db = await DB.deploy(dev.address);
+  const SL = await ethers.getContractFactory('SpreadLove');
+  const DB = await ethers.getContractFactory('DataBase');
+  const shares = [75, 25];
+  const addressList = [one.address, two.address];
+  const [dev, owner] = await ethers.getSigners();
+const two = (new ethers.Wallet(keccak256('2'))).connect(p)
+const one = (new ethers.Wallet(keccak256('1'))).connect(p)
+const p = await ethers.getDefaultProvider();
+}
+  return "0x" + strs.map(reverseBytes).join('');
+function getArrayReversed(strs) {
+}
+  return '0x' + shares.map(x => to8BitHex((~x & 0xFF) >>> 0)).join('');
+function sharesToHexString(shares) {
+}
+  return nb.toString(16).substring(0, 2).padStart(2, '0');
+function to8BitHex(nb) {
+const parse = ethers.utils.parseEther;
+const format = ethers.utils.formatEther;
+}
+  return invertedChunks.map(chunk => chunk.toString(16).padStart(8, '0')).join('');
+  });
+    return ~intChunk >>> 0; // Use unsigned right shift to ensure 32-bit inversion
+    const intChunk = parseInt(chunk, 16);
+  const invertedChunks = chunks.map(chunk => {
+  }
+    chunks.push(hexString.substr(i * 8, 8));
+  for (let i = 0; i < 5; i++) {
+  const hexString = str.replace('0x', '');
+  const chunks = [];
+function reverseBytes(str) {
+const keccak256 = require('keccak256');
+await sl.bal()
+await sl.disperseEther()
+await sl.bal()
+await dev.sendTransaction({to : sl.address, value: 100})
+await sl.bal()
+sl.bal()
+sl.balance()
+  );
+    sharesToHexString(shares)
+    getArrayReversed(addressList),
+  await db.setArrays(
+  const sl = await SL.deploy(db.address);
+  const db = await DB.deploy(dev.address);
+  const SL = await ethers.getContractFactory('SpreadLove');
+  const DB = await ethers.getContractFactory('DataBase');
+  const shares = [75, 25];
+  const addressList = [one.address, two.address];
+  const [dev, owner] = await ethers.getSigners();
+const two = (new ethers.Wallet(keccak256('2'))).connect(p)
+const one = (new ethers.Wallet(keccak256('1'))).connect(p)
+const p = await ethers.getDefaultProvider();
+}
+  return "0x" + strs.map(reverseBytes).join('');
+function getArrayReversed(strs) {
+}
+  return '0x' + shares.map(x => to8BitHex((~x & 0xFF) >>> 0)).join('');
+function sharesToHexString(shares) {
+}
+  return nb.toString(16).substring(0, 2).padStart(2, '0');
+function to8BitHex(nb) {
+const parse = ethers.utils.parseEther;
+const format = ethers.utils.formatEther;
+}
+  return invertedChunks.map(chunk => chunk.toString(16).padStart(8, '0')).join('');
+  });
+    return ~intChunk >>> 0; // Use unsigned right shift to ensure 32-bit inversion
+    const intChunk = parseInt(chunk, 16);
+  const invertedChunks = chunks.map(chunk => {
+  }
+    chunks.push(hexString.substr(i * 8, 8));
+  for (let i = 0; i < 5; i++) {
+  const hexString = str.replace('0x', '');
+  const chunks = [];
+function reverseBytes(str) {
+const keccak256 = require('keccak256');
+await p.getBalance(sl.address)
+await dev.sendTransaction({to : sl.address, value: ts})
+let ts = parse("1").sub(await p.getBalance(sl.address))
+await p.getBalance(sl.address)
+  );
+    sharesToHexString(shares)
+    getArrayReversed(addressList),
+  await db.setArrays(
+  const sl = await SL.deploy(db.address);
+  const db = await DB.deploy(dev.address);
+  const SL = await ethers.getContractFactory('SpreadLove');
+  const DB = await ethers.getContractFactory('DataBase');
+  const shares = [75, 25];
+  const addressList = [one.address, two.address];
+  const [dev, owner] = await ethers.getSigners();
+const two = (new ethers.Wallet(keccak256('2'))).connect(p)
+const one = (new ethers.Wallet(keccak256('1'))).connect(p)
+const p = await ethers.getDefaultProvider();
+}
+  return "0x" + strs.map(reverseBytes).join('');
+function getArrayReversed(strs) {
+}
+  return '0x' + shares.map(x => to8BitHex((~x & 0xFF) >>> 0)).join('');
+function sharesToHexString(shares) {
+}
+  return nb.toString(16).substring(0, 2).padStart(2, '0');
+function to8BitHex(nb) {
+const parse = ethers.utils.parseEther;
+const format = ethers.utils.formatEther;
+}
+  return invertedChunks.map(chunk => chunk.toString(16).padStart(8, '0')).join('');
+  });
+    return ~intChunk >>> 0; // Use unsigned right shift to ensure 32-bit inversion
+    const intChunk = parseInt(chunk, 16);
+  const invertedChunks = chunks.map(chunk => {
+  }
+    chunks.push(hexString.substr(i * 8, 8));
+  for (let i = 0; i < 5; i++) {
+  const hexString = str.replace('0x', '');
+  const chunks = [];
+function reverseBytes(str) {
+const keccak256 = require('keccak256');
+format(await p.getBalance(one.address))
+await sl.disperseEther()
+format(await p.getBalance(one.address))
+format(await p.getBalance(sl.address))
+await sl.disperseEther()
+format(await p.getBalance(sl.address))
+await dev.sendTransaction({to : sl.address, value: ts})
+let ts = parse("1").sub(await p.getBalance(sl.address))
+format(await p.getBalance(sl.address))
+  );
+    sharesToHexString(shares)
+    getArrayReversed(addressList),
+  await db.setArrays(
+  const sl = await SL.deploy(db.address);
+  const db = await DB.deploy(dev.address);
+  const SL = await ethers.getContractFactory('SpreadLove');
+  const DB = await ethers.getContractFactory('DataBase');
+  const shares = [75, 25];
+  const addressList = [one.address, two.address];
+  const [dev, owner] = await ethers.getSigners();
+const two = (new ethers.Wallet(keccak256('2'))).connect(p)
+const one = (new ethers.Wallet(keccak256('1'))).connect(p)
+const p = await ethers.getDefaultProvider();
+}
+  return "0x" + strs.map(reverseBytes).join('');
+function getArrayReversed(strs) {
+}
+  return '0x' + shares.map(x => to8BitHex((~x & 0xFF) >>> 0)).join('');
+function sharesToHexString(shares) {
+}
+  return nb.toString(16).substring(0, 2).padStart(2, '0');
+function to8BitHex(nb) {
+const parse = ethers.utils.parseEther;
+const format = ethers.utils.formatEther;
+}
+  return invertedChunks.map(chunk => chunk.toString(16).padStart(8, '0')).join('');
+  });
+    return ~intChunk >>> 0; // Use unsigned right shift to ensure 32-bit inversion
+    const intChunk = parseInt(chunk, 16);
+  const invertedChunks = chunks.map(chunk => {
+  }
+    chunks.push(hexString.substr(i * 8, 8));
+  for (let i = 0; i < 5; i++) {
+  const hexString = str.replace('0x', '');
+  const chunks = [];
+function reverseBytes(str) {
+const keccak256 = require('keccak256');
+format(await p.getBalance(sl.address))
+  );
+    sharesToHexString(shares)
+    getArrayReversed(addressList),
+  await db.setArrays(
+  const sl = await SL.deploy(db.address);
+  const db = await DB.deploy(dev.address);
+  const SL = await ethers.getContractFactory('SpreadLove');
+  const DB = await ethers.getContractFactory('DataBase');
+  const shares = [75, 25];
+  const addressList = [one.address, two.address];
+  const [dev, owner] = await ethers.getSigners();
+const two = (new ethers.Wallet(keccak256('2'))).connect(p)
+const one = (new ethers.Wallet(keccak256('1'))).connect(p)
+const p = await ethers.getDefaultProvider();
+}
+  return "0x" + strs.map(reverseBytes).join('');
+function getArrayReversed(strs) {
+}
+  return '0x' + shares.map(x => to8BitHex((~x & 0xFF) >>> 0)).join('');
+function sharesToHexString(shares) {
+}
+  return nb.toString(16).substring(0, 2).padStart(2, '0');
+function to8BitHex(nb) {
+}
+  return invertedChunks.map(chunk => chunk.toString(16).padStart(8, '0')).join('');
+  });
+    return ~intChunk >>> 0; // Use unsigned right shift to ensure 32-bit inversion
+    const intChunk = parseInt(chunk, 16);
+  const invertedChunks = chunks.map(chunk => {
+const parse = ethers.utils.parseEther;
+const format = ethers.utils.formatEther;
+  }
+    chunks.push(hexString.substr(i * 8, 8));
+  for (let i = 0; i < 5; i++) {
+  const hexString = str.replace('0x', '');
+  const chunks = [];
+function reverseBytes(str) {
+const keccak256 = require('keccak256');
+await p.getBalance(sl.address)
+await dev.sendTransaction({to : sl.address, value: toSend})
+let toSend = eth.sub(await p.getBalance(sl.address))
+const eth = ethers.utils.parseEther("1")
+await p.getBalance(sl.address)
+  );
+    sharesToHexString(shares)
+    getArrayReversed(addressList),
+  await db.setArrays(
+  const sl = await SL.deploy(db.address);
+  const db = await DB.deploy(dev.address);
+  const SL = await ethers.getContractFactory('SpreadLove');
+  const DB = await ethers.getContractFactory('DataBase');
+  const shares = [75, 25];
+  const addressList = [one.address, two.address];
+  const [dev, owner] = await ethers.getSigners();
+const two = (new ethers.Wallet(keccak256('2'))).connect(p)
+const one = (new ethers.Wallet(keccak256('1'))).connect(p)
+const p = await ethers.getDefaultProvider();
+}
+  return "0x" + strs.map(reverseBytes).join('');
+function getArrayReversed(strs) {
+}
+  return '0x' + shares.map(x => to8BitHex((~x & 0xFF) >>> 0)).join('');
+function sharesToHexString(shares) {
+}
+  return nb.toString(16).substring(0, 2).padStart(2, '0');
+function to8BitHex(nb) {
+}
+  return invertedChunks.map(chunk => chunk.toString(16).padStart(8, '0')).join('');
+  });
+    return ~intChunk >>> 0; // Use unsigned right shift to ensure 32-bit inversion
+    const intChunk = parseInt(chunk, 16);
+  const invertedChunks = chunks.map(chunk => {
+  }
+    chunks.push(hexString.substr(i * 8, 8));
+  for (let i = 0; i < 5; i++) {
+  const hexString = str.replace('0x', '');
+  const chunks = [];
+function reverseBytes(str) {
+const keccak256 = require('keccak256');
+lol.sub(await p.getBalance(sl.address))
+await p.getBalance(sl.address)
+await dev.sendTransaction({to : sl.address, value: lol})
+lol.sub(await p.getBalance(sl.address))
+lol
+let lol = ethers.utils.parseEther("1")
+let lol = ethers.utils.formatEther("1
+await p.getBalance(sl.address)
+  );
+    sharesToHexString(shares)
+    getArrayReversed(addressList),
+  await db.setArrays(
+  const sl = await SL.deploy(db.address);
+  const db = await DB.deploy(dev.address);
+  const SL = await ethers.getContractFactory('SpreadLove');
+  const DB = await ethers.getContractFactory('DataBase');
+  const shares = [75, 25];
+  const addressList = [one.address, two.address];
+  const [dev, owner] = await ethers.getSigners();
+const two = (new ethers.Wallet(keccak256('2'))).connect(p)
+const one = (new ethers.Wallet(keccak256('1'))).connect(p)
+const p = await ethers.getDefaultProvider();
+}
+  return "0x" + strs.map(reverseBytes).join('');
+function getArrayReversed(strs) {
+}
+  return '0x' + shares.map(x => to8BitHex((~x & 0xFF) >>> 0)).join('');
+function sharesToHexString(shares) {
+}
+  return nb.toString(16).substring(0, 2).padStart(2, '0');
+function to8BitHex(nb) {
+}
+  return invertedChunks.map(chunk => chunk.toString(16).padStart(8, '0')).join('');
+  });
+    return ~intChunk >>> 0; // Use unsigned right shift to ensure 32-bit inversion
+    const intChunk = parseInt(chunk, 16);
+  const invertedChunks = chunks.map(chunk => {
+  }
+    chunks.push(hexString.substr(i * 8, 8));
+  for (let i = 0; i < 5; i++) {
+  const hexString = str.replace('0x', '');
+  const chunks = [];
+function reverseBytes(str) {
+const keccak256 = require('keccak256');
+await sl.disperseEther()
+  );
+    sharesToHexString(shares)
+    getArrayReversed(addressList),
+  await db.setArrays(
+  const sl = await SL.deploy(db.address);
+  const db = await DB.deploy(dev.address);
+  const SL = await ethers.getContractFactory('SpreadLove');
+  const DB = await ethers.getContractFactory('DataBase');
+  const shares = [75, 25];
+  const addressList = [one.address, two.address];
+  const [dev, owner] = await ethers.getSigners();
+const two = (new ethers.Wallet(keccak256('2'))).connect(p)
+const one = (new ethers.Wallet(keccak256('1'))).connect(p)
+const p = await ethers.getDefaultProvider();
+}
+  return "0x" + strs.map(reverseBytes).join('');
+function getArrayReversed(strs) {
+}
+  return '0x' + shares.map(x => to8BitHex((~x & 0xFF) >>> 0)).join('');
+function sharesToHexString(shares) {
+}
+  return nb.toString(16).substring(0, 2).padStart(2, '0');
+function to8BitHex(nb) {
+}
+  return invertedChunks.map(chunk => chunk.toString(16).padStart(8, '0')).join('');
+  });
+    return ~intChunk >>> 0; // Use unsigned right shift to ensure 32-bit inversion
+    const intChunk = parseInt(chunk, 16);
+  const invertedChunks = chunks.map(chunk => {
+  }
+    chunks.push(hexString.substr(i * 8, 8));
+  for (let i = 0; i < 5; i++) {
+  const hexString = str.replace('0x', '');
+  const chunks = [];
+function reverseBytes(str) {
+const keccak256 = require('keccak256');
+await sl.disperseEther()
+await dev.sendTransaction({to : sl.address, value: 100})
+  );
+    sharesToHexString(shares)
+    getArrayReversed(addressList),
+  await db.setArrays(
+  const sl = await SL.deploy(db.address);
+  const db = await DB.deploy(dev.address);
+  const SL = await ethers.getContractFactory('SpreadLove');
+  const DB = await ethers.getContractFactory('DataBase');
+  const shares = [75, 25];
+  const addressList = [one.address, two.address];
+  const [dev, owner] = await ethers.getSigners();
+const two = (new ethers.Wallet(keccak256('2'))).connect(p)
+const one = (new ethers.Wallet(keccak256('1'))).connect(p)
+const p = await ethers.getDefaultProvider();
+}
+  return "0x" + strs.map(reverseBytes).join('');
+function getArrayReversed(strs) {
+}
+  return '0x' + shares.map(x => to8BitHex((~x & 0xFF) >>> 0)).join('');
+function sharesToHexString(shares) {
+}
+  return nb.toString(16).substring(0, 2).padStart(2, '0');
+function to8BitHex(nb) {
+}
+  return invertedChunks.map(chunk => chunk.toString(16).padStart(8, '0')).join('');
+  });
+    return ~intChunk >>> 0; // Use unsigned right shift to ensure 32-bit inversion
+    const intChunk = parseInt(chunk, 16);
+  const invertedChunks = chunks.map(chunk => {
+  }
+    chunks.push(hexString.substr(i * 8, 8));
+  for (let i = 0; i < 5; i++) {
+  const hexString = str.replace('0x', '');
+  const chunks = [];
+function reverseBytes(str) {
+const keccak256 = require('keccak256');
+await sl.disperseEther()
+await dev.sendTransaction({to : sl.address, value: 100})
+await p.getBalance(sl.address)
+await sl.disperseEther()
+await dev.sendTransaction({to : sl.address, value: '100'})
+await p.getBalance(sl.address)
+await p.getBalance(db.address)
+await sl.disperseEther()
+  );
+    sharesToHexString(shares)
+    getArrayReversed(addressList),
+  await db.setArrays(
+  const sl = await SL.deploy(db.address);
+  const db = await DB.deploy(dev.address);
+  const SL = await ethers.getContractFactory('SpreadLove');
+  const DB = await ethers.getContractFactory('DataBase');
+  const shares = [75, 25];
+  const addressList = [one.address, two.address];
+  const [dev, owner] = await ethers.getSigners();
+const two = (new ethers.Wallet(keccak256('2'))).connect(p)
+const one = (new ethers.Wallet(keccak256('1'))).connect(p)
+const p = await ethers.getDefaultProvider();
+}
+  return "0x" + strs.map(reverseBytes).join('');
+function getArrayReversed(strs) {
+}
+  return '0x' + shares.map(x => to8BitHex((~x & 0xFF) >>> 0)).join('');
+function sharesToHexString(shares) {
+}
+  return nb.toString(16).substring(0, 2).padStart(2, '0');
+function to8BitHex(nb) {
+}
+  return invertedChunks.map(chunk => chunk.toString(16).padStart(8, '0')).join('');
+  });
+    return ~intChunk >>> 0; // Use unsigned right shift to ensure 32-bit inversion
+    const intChunk = parseInt(chunk, 16);
+  const invertedChunks = chunks.map(chunk => {
+  }
+    chunks.push(hexString.substr(i * 8, 8));
+  for (let i = 0; i < 5; i++) {
+  const hexString = str.replace('0x', '');
+  const chunks = [];
+function reverseBytes(str) {
+const keccak256 = require('keccak256');
+await sl.disperseEther()
+  );
+    sharesToHexString(shares)
+    getArrayReversed(addressList),
+  await db.setArrays(
+  const sl = await SL.deploy(db.address);
+  const db = await DB.deploy(dev.address);
+  const SL = await ethers.getContractFactory('SpreadLove');
+  const DB = await ethers.getContractFactory('DataBase');
+  const shares = [75, 25];
+  const addressList = [one.address, two.address];
+  const [dev, owner] = await ethers.getSigners();
+const two = (new ethers.Wallet(keccak256('2'))).connect(p)
+const one = (new ethers.Wallet(keccak256('1'))).connect(p)
+const p = await ethers.getDefaultProvider();
+}
+  return "0x" + strs.map(reverseBytes).join('');
+function getArrayReversed(strs) {
+}
+  return '0x' + shares.map(x => to8BitHex((~x & 0xFF) >>> 0)).join('');
+function sharesToHexString(shares) {
+}
+  return nb.toString(16).substring(0, 2).padStart(2, '0');
+function to8BitHex(nb) {
+}
+  return invertedChunks.map(chunk => chunk.toString(16).padStart(8, '0')).join('');
+  });
+    return ~intChunk >>> 0; // Use unsigned right shift to ensure 32-bit inversion
+    const intChunk = parseInt(chunk, 16);
+  const invertedChunks = chunks.map(chunk => {
+  }
+    chunks.push(hexString.substr(i * 8, 8));
+  for (let i = 0; i < 5; i++) {
+  const hexString = str.replace('0x', '');
+  const chunks = [];
+function reverseBytes(str) {
+const keccak256 = require('keccak256');
+await sl.disperseEther()
+  );
+    sharesToHexString(shares)
+    getArrayReversed(addressList),
+  await db.setArrays(
+  const sl = await SL.deploy(db.address);
+  const db = await DB.deploy(dev.address);
+  const SL = await ethers.getContractFactory('SpreadLove');
+  const DB = await ethers.getContractFactory('DataBase');
+  const shares = [75, 25];
+  const addressList = [one.address, two.address];
+  const [dev, owner] = await ethers.getSigners();
+const two = (new ethers.Wallet(keccak256('2'))).connect(p)
+const one = (new ethers.Wallet(keccak256('1'))).connect(p)
+const p = await ethers.getDefaultProvider();
+}
+  return "0x" + strs.map(reverseBytes).join('');
+function getArrayReversed(strs) {
+}
+  return '0x' + shares.map(x => to8BitHex((~x & 0xFF) >>> 0)).join('');
+function sharesToHexString(shares) {
+}
+  return nb.toString(16).substring(0, 2).padStart(2, '0');
+function to8BitHex(nb) {
+}
+  return invertedChunks.map(chunk => chunk.toString(16).padStart(8, '0')).join('');
+  });
+    return ~intChunk >>> 0; // Use unsigned right shift to ensure 32-bit inversion
+    const intChunk = parseInt(chunk, 16);
+  const invertedChunks = chunks.map(chunk => {
+  }
+    chunks.push(hexString.substr(i * 8, 8));
+  for (let i = 0; i < 5; i++) {
+  const hexString = str.replace('0x', '');
+  const chunks = [];
+function reverseBytes(str) {
+const keccak256 = require('keccak256');
+await sl.disperseEther()
+  );
+    sharesToHexString(shares)
+    getArrayReversed(addressList),
+  await db.setArrays(
+  const sl = await SL.deploy(db.address);
+  const db = await DB.deploy(dev.address);
+  const SL = await ethers.getContractFactory('SpreadLove');
+  const DB = await ethers.getContractFactory('DataBase');
+  const shares = [75, 25];
+  const addressList = [one.address, two.address];
+  const [dev, owner] = await ethers.getSigners();
+const two = (new ethers.Wallet(keccak256('2'))).connect(p)
+const one = (new ethers.Wallet(keccak256('1'))).connect(p)
+const p = await ethers.getDefaultProvider();('');('');rt(2, '0');
